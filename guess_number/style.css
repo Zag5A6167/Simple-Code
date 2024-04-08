@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+   
+    text-align: center;
+
+}
+
+.headerText{
+    font-size: 50px;
+
+}
+
+
+.container {
+
+    max-width: 50%;
+    margin: auto;
+    height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-inside{
+    display: flex;
+    flex-direction:column;
+}
+
+#valNumber{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.randomNumber{
+    font-size: 300px;
+}
+
+
+#btn{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
