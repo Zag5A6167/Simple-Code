@@ -1,0 +1,7 @@
+
+
+
+function close(){
+    window.close()
+
+}
