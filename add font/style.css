@@ -1,0 +1,35 @@
+@font-face { 
+    font-family: 'pixelifysans';
+    src: url('/PixelifySans-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+
+
+
+body{
+    font-family: pixelifysans;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    width: 100%;
+   
+    
+}
+
+
+
+.container{
+    font-size: 40px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
