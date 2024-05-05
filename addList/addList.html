@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button onclick="create()">Click</button>
+        <button onclick="remove()">Remove</button>
+
+    </div>
+    <ul id="myUl"></ul>
+    <script>
+        
+        function create(){
+            
+            var li = document.createElement("li")
+            li.textContent = "Hello world"
+     
+            var parentElement = document.getElementById("myUl")
+        parentElement.appendChild(li)
+       }
+       
+       function remove(){
+        
+        var ul = document.getElementById("myUl")
+        var lastList = ul.lastElementChild
+        if(lastList){
+            ul.removeChild(lastList)
+        }else{
+            alert("no list  items to remove")
+        }
+       }
+       
+    </script>
+</body>
+</html>
