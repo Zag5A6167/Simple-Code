@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: azure;
+
+}
+
+body{
+    text-align: center;
+}
+
+.container{
+    
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    background-color: bisque;
+    margin: 0 auto;
+    
+    
+}
+
+.item{
+    
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+
+.item:hover{
+    cursor: pointer;
+}
+
+
+.points-container{
+    text-align: center;
+}
