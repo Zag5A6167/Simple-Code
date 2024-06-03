@@ -1,28 +1,13 @@
-const val = document.getElementById('valNumber')
-const btn1 = document.getElementById('btn')
-const numberShow = document.getElementById('show')
-
-var x = Math.floor((Math.random() * 10) + 1);
+var textInput = document.getElementById('textInput')
+var btn = document.getElementById('btn')
+var content = document.getElementById('content')
 
 
 
-var text = 0
+btn.addEventListener('click',function(){
+    var newDiv = document.createElement("div")
+    newDiv.textContent = textInput.value
+    content.appendChild(newDiv)
+    alert("Success")
 
-function play(){
-  
-
-    if(val.value == x){
-        alert("Correct!!!!!")
-        val.value = ""
-        x = Math.floor((Math.random() * 10) + 1);
-    }
-    else{
-        val.value = ""
-    }
-
-}
-
-
-
-
-btn1.addEventListener('click',play)
+});
